@@ -9,9 +9,9 @@ commands:
       aliases: [colorcommand, convertcolors]
       description: Wrapper command
       usage: /<command> command arguments
-      permission: ccc.use
+      permission: colerfulcommands.use
       permission-message: You don't have the permission <permission>
 permissions:
-   ccc.use:
+   colerfulcommands.use:
       description: Gives permission to the command
       default: op
