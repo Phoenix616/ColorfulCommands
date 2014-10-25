@@ -12,7 +12,7 @@ public class ColerfulCommands extends JavaPlugin {
 		if(args.length < 2)
 			sender.sendMessage("Usage: /" + cmd.getName() + " <command> <command arguments>");
 		else {
-			String cmdstr = args[0];
+			String cmdstr = args[0].replaceFirst("^/", "");
 			for(int i = 1; i < args.length; i++) {
 				cmdstr += " " + ChatColor.translateAlternateColorCodes('&', args[i]);
 			}
