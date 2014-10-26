@@ -1,11 +1,11 @@
-package de.themoep.ColerfulCommands;
+package de.themoep.ColorfulCommands;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class ColerfulCommands extends JavaPlugin {
+public class ColorfulCommands extends JavaPlugin {
 	
 	@Override	
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args){
