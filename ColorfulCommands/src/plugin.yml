@@ -1,6 +1,6 @@
 name: ColorfulCommands
 main: de.themoep.ColorfulCommands.ColorfulCommands
-version: 0.1.1
+version: 0.1.2
 description: Provides a wrapper command to use color codes in every command
 author: Phoenix616
 website: www.themoep.de
