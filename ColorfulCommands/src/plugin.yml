@@ -1,6 +1,6 @@
 name: ColorfulCommands
 main: de.themoep.ColorfulCommands.ColorfulCommands
-version: 0.1.2
+version: 0.1.3
 description: Provides a wrapper command to use color codes in every command
 author: Phoenix616
 website: www.themoep.de
@@ -8,7 +8,7 @@ commands:
    cc:
       aliases: [colorcommand, convertcolors]
       description: Wrapper command
-      usage: /<command> command arguments
+      usage: /<command> <command> <command arguments>
       permission: colorfulcommands.use
       permission-message: You don't have the permission <permission>
 permissions:
