@@ -3,7 +3,7 @@ main: de.themoep.ColorfulCommands.ColorfulCommands
 version: 0.1.3
 description: Provides a wrapper command to use color codes in every command
 author: Phoenix616
-website: www.themoep.de
+website: https://github.com/Phoenix616/ColorfulCommands
 commands:
    cc:
       aliases: [colorcommand, convertcolors]
