@@ -4,6 +4,7 @@ version: 0.1.4
 description: Provides a wrapper command to use color codes in every command
 author: Phoenix616
 website: https://github.com/Phoenix616/ColorfulCommands
+api-version: 1.13
 commands:
    cc:
       aliases: [colorcommand, convertcolors]
